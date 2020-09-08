@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icon.png">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4c7fa9406f.js" crossorigin="anonymous"></script>
+    <title>Desing Responsivo</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html" target=""><h1 class="logo">Nodeprop</h1></a>
+        <button class="btn-menu"><i class="fas fa-align-justify"></i></button>
+        <div class="fix">
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="title">
+            <h2>Ouse Inovar!</h2>
+            <h3>Criamos experiências e estabelecemos ações e estratégias que conectam marcas e consumidores</h3>
+        </div>
+        <div class="buttons">
+            <button class="btn-cadastrar">Cadastrar<i class="fa fa-arrow-circle-right"></i></button>
+            <button class="btn-sobre">Sobre<i class="fa fa-question-circle"></i></button>
+        </div>
+    </div>
+    <main class="servicos">
+        <article class="servico">
+            <a href="#"><img src="img/criacoes.jpg" alt="Campanhas publicitárias"></a>
+            <div class="inner">
+                <a href="#">Campanhas Publicitárias</a>
+                <h4>Impressos, VTs e Jingles</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </article>
+        <article class="servico">
+            <a href="#"><img src="img/md.jpg" alt="Marketing Digital"></a>
+            <div class="inner">
+                <a href="#">Marketing Digital</a>
+                <h4>Administração de Redes Sociais</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </article>
+        <article class="servico">
+            <a href="#"><img src="img/cs.jpg" alt="Criação de Sites"></a>
+            <div class="inner">
+                <a href="#">Criação de Sites</a>
+                <h4>Sites Administráveis</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </article>
+    </main>
+    <section class="newsletter">
+        <h2>Inscreva-se agora!</h2>
+        <h3>Receba novidades, dicas e muitos mais</h3>
+        <form>
+            <input type="email" name="email" placeholder="Seu e-mail">
+            <button>Cadastrar</button>
+        </form>
+    </section>
+    <footer class="rodape">
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+        <p class="copyright">
+            Copyright © Lucas Gonçalves da Silva 2020. Todos os direitos reservados
+        </p>
+    </footer>
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+            $(".menu").hide();
+        });
+    </script>
+</body>
+</html>
